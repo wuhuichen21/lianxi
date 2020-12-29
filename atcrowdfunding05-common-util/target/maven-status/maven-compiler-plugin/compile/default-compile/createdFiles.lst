@@ -1,7 +1,0 @@
-com\xiaowu\crowd\util\CrowdUtil.class
-com\xiaowu\crowd\exception\AccessForbiddenException.class
-com\xiaowu\crowd\exception\LoginFailedException.class
-com\xiaowu\crowd\exception\LoginAcctAlreadyInUseException.class
-com\xiaowu\crowd\util\ResultEntity.class
-com\xiaowu\crowd\exception\LoginAcctAlreadyInUseForUpdateException.class
-com\xiaowu\crowd\constant\CrowdConstant.class
