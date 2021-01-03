@@ -1,0 +1,21 @@
+server:
+  port: 2000
+spring:
+  application:
+    name: xiaowu-crowd-mysql
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/project_crowd?serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  mapper-locations: classpath*:/mybatis/mapper/*Mapper.xml
+logging:
+  level:
+    com.xiaowu.spring.boot.mapper: debug
+    com.xiaowu.spring.boot.test: debug
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka
